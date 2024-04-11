@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Điểm trung bình và tổng điểm 3 môn của sinh viên</h1>
+<button onclick="document.write('Điểm trung bình: ' + diemTrungBinh + 'và'+ 'Tổng điểm' + tongDiem)">Bấm để biết điểm
+    trung bình và tổng điểm
+</button>
+
+</body>
+<script>
+    // let vatLy = 7;
+    // let hoaHoc = 8;
+    // let sinhHoc = 9;
+    // document.write('điểm')
+    let vatLy = prompt('Nhập điểm vật lý: ');
+    let hoaHoc = prompt('Nhập điểm hóa học: ');
+    let sinhHoc = prompt('Nhập điểm sinh học: ');
+
+    let diemTrungBinh = (vatLy + hoaHoc + sinhHoc) / 3;
+    let tongDiem = vatLy + hoaHoc + sinhHoc;
+</script>
+</html>
